@@ -123,7 +123,7 @@ def nvidia_model():
 	model.add(Convolution2D(48,5,5, subsample=(2,2), activation='elu'))
 	model.add(Convolution2D(64,3,3, activation='elu'))
 	model.add(Convolution2D(64,3,3, activation='elu'))
-	model.add((Droput(0.5))
+	model.add((Dropout(0.5))
 	model.add(Flatten())
 	model.add(Dense(100, activation='elu'))
 	#model.add(Dropout(0.5))
