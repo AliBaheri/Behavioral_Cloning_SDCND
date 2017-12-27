@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 steering_correction = .15
 steering_threshold = .25
 batch_size = 32
-num_epoch = 2
+num_epoch = 1
 
 lines = []
 with open('data/driving_log.csv') as csvfile:
